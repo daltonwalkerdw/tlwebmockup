@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import './Styles/FrontPage.scss';
 import {
   BrowserRouter as Router,
