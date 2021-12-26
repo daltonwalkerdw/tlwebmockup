@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  font-size: 20rem;
+  font-family: "segoe script";
+  
+  
+  color: green
+
+}
+
+h1:hover{
+  color: black;
+  font-size: 30rem;
+}
