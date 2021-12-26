@@ -5,6 +5,7 @@ $SteelBlue: #2e7ca6;
 $Silver: #aaabb8;
 $Black: #000000;
 
+<<<<<<< HEAD
 //ThreatLocker Font
 $header: Lato;
 $sub-header: 'Open Sans';
@@ -31,4 +32,11 @@ $body-font: Roboto;
         color: white;
     }
 }
+=======
+>>>>>>> 1c672a8 (Announcment styling)
 
+// Announcement Bar Styling
+.annBar Alert{
+    background-color: cyan;
+    font-size: 20rem;
+}
