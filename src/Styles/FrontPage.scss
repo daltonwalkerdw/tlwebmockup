@@ -7,14 +7,28 @@ $Black: #000000;
 
 //ThreatLocker Font
 $header: Lato;
-$sub-header: "Open Sans";
+$sub-header: 'Open Sans';
+$body-font: Roboto;
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .hero{
-    background-color: $Indigo;
-    
+    background: linear-gradient($Indigo, $BlueJeans, $Indigo);
+    padding: 100px;
+
     h1{
-        font: 4.5rem $header
+        font: 700 4.5rem $header;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    h2 {
+        font: 100 1.5rem $sub-header;
+        color: white;
     }
 }
 
