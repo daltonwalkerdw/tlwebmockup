@@ -5,5 +5,16 @@ $SteelBlue: #2e7ca6;
 $Silver: #aaabb8;
 $Black: #000000;
 
+//ThreatLocker Font
+$header: Lato;
+$sub-header: "Open Sans";
 
+
+.hero{
+    background-color: $Indigo;
+    
+    h1{
+        font: 4.5rem $header
+    }
+}
 
