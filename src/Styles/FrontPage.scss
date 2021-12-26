@@ -14,12 +14,13 @@ $body-font: Roboto;
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .hero{
-    background: linear-gradient($Indigo, $BlueJeans, $Indigo);
-    padding: 100px;
-
+    background: linear-gradient($Indigo, $BlueJeans);
+    padding: 7rem;
+    width: 100%;
     h1{
         font: 700 4.5rem $header;
         text-transform: uppercase;
@@ -31,4 +32,44 @@ $body-font: Roboto;
         color: white;
     }
 }
+
+// Announcement Bar Styling
+.annBar {
+    font: 400 1rem $sub-header;
+    background: linear-gradient(to right, $Indigo, $BlueJeans);
+    width: 100vw;
+    display: flex;
+    padding: .50rem;
+    align-items: center;
+    color: white;
+
+    .annBtn {
+        float: right;
+        color: white;
+        background-color: $BlueJeans;
+        margin-right: 2rem;
+        padding: .50rem;
+        border-style: none;
+        border-radius: .25rem;
+        &:hover{
+            background-color: white;
+            color: $Black;
+        } 
+        }
+   
+   @media screen and (max-width: 500px){
+         .annBar p{
+            margin: 0 auto;
+           text-align: center;
+       }
+
+       .annBtn {
+           display: none;
+       }
+
+      
+   }
+    }
+
+    
 
